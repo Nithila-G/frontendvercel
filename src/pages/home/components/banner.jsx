@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { assets } from '../../../assets/assets';
 import Findforms from './findforms';
-import homeimg from '../../../assets/homeimg.jpg';
-
+//import homeimg from '../../../assets/homeimg.jpg';
+import homeimg from '../../../../public/homeimg.jpg';
 const Banner = () => {
   const [showForm, setShowForm] = useState(false);
 
