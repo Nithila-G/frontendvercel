@@ -111,9 +111,9 @@ const MultiStepFormComponent = () => {
               {['Cleaning', 'Cooking', 'Baby Sitting', 'Elder Care'].map((type) => {
                 let imageSrc;
                 switch (type) {
-                  // case 'Cleaning':
-                  //   imageSrc = CleaningImage;
-                  //   break;
+                  case 'Cleaning':
+                    imageSrc = CleaningImage;
+                    break;
                   case 'Cooking':
                     imageSrc = CookingImage;
                     break;
