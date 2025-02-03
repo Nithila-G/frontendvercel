@@ -1,7 +1,7 @@
-import menu from '../assets/menu.png';
-import back from '../assets/dropdown_icon.png';
-import banner from '../assets/homeimg.jpg';
-import shine from '../assets/star.png';
+import menu from './menu.png';
+import back from './dropdown_icon.png';
+import banner from './homeimg.jpg';
+import shine from './star.png';
 //import cleaning from '../assets/cleaning.png';
 
 export const assets = {
