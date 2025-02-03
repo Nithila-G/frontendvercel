@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import 'react-toastify/dist/ReactToastify.css';
 
-import CleaningImage from '../../../assets/Cleaning.png';
+import CleaningImage from '../../../assets/cleaning.png';
 import CookingImage from '../../../assets/Cooking.png';
 import BabySittingImage from '../../../assets/Baby-Sitting.png';
 import ElderCareImage from '../../../assets/Elder Care.png';
