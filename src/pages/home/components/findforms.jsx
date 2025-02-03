@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import 'react-toastify/dist/ReactToastify.css';
 
 // Import images from the assets folder
-//import CleaningImage from '/src/assets/Cleaning.png';
+import CleaningImage from '/src/assets/Cleaning.png';
 import CookingImage from '/src/assets/Cooking.png';
 import BabySittingImage from '/src/assets/Baby-Sitting.png';
 import ElderCareImage from '/src/assets/Elder Care.png';
