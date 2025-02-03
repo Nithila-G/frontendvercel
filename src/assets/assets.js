@@ -9,5 +9,5 @@ export const assets = {
   back,
   banner,
   shine,
-  cleaning:"/Cleaning.png",
+  //cleaning,
 };
