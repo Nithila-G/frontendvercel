@@ -5,10 +5,10 @@ import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import 'react-toastify/dist/ReactToastify.css';
 
 // Import images from the assets folder
-import CleaningImage from '/src/assets/Cleaning.png';
-import CookingImage from '/src/assets/Cooking.png';
-import BabySittingImage from '/src/assets/Baby-Sitting.png';
-import ElderCareImage from '/src/assets/Elder Care.png';
+import CpyImg from '../../../../public/Copy.png';
+import CookingImage from '../../../../public/Cooking.png';
+import BabySittingImage from '../../../../public/Baby-Sitting.png';
+import ElderCareImage from '../../../../public/Elder Care.png';
 
 const MultiStepFormComponent = () => {
   const [formData, setFormData] = useState({
@@ -112,7 +112,7 @@ const MultiStepFormComponent = () => {
                 let imageSrc;
                 switch (type) {
                   case 'Cleaning':
-                    imageSrc = CleaningImage;
+                    imageSrc = CpyImg;
                     break;
                   case 'Cooking':
                     imageSrc = CookingImage;
