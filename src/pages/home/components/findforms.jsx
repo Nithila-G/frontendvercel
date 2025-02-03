@@ -4,18 +4,11 @@ import { ToastContainer, toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import 'react-toastify/dist/ReactToastify.css';
 
-<<<<<<< HEAD
 // Import images from the assets folder
 import CpyImg from '../../../../public/Copy.png';
 import CookingImage from '../../../../public/Cooking.png';
 import BabySittingImage from '../../../../public/Baby-Sitting.png';
 import ElderCareImage from '../../../../public/Elder Care.png';
-=======
-import CleaningImage from '../../../assets/Cleaning.png';
-import CookingImage from '../../../assets/Cooking.png';
-import BabySittingImage from '../../../assets/Baby-Sitting.png';
-import ElderCareImage from '../../../assets/Elder Care.png';
->>>>>>> 0a94cbea36e5cbdd2e1f9901257d05dd228491d6
 
 const MultiStepFormComponent = () => {
   const [formData, setFormData] = useState({
